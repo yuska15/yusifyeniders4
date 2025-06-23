@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #f4f4f4;
+      color: #333;
+    }
+
+    header {
+      background: white;
+      padding: 20px 50px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 2px solid #eee;
+    }
+
+    .logo {
+      font-size: 24px;
+      color: #007acc;
+    }
+
+    .nav-links {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+      padding: 0;
+    }
+
+    .nav-links a {
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+    }
+
+    .intro-section {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 60px 100px;
+      flex-wrap: wrap;
+    }
+
+    .text h2 {
+      font-size: 36px;
+    }
+
+    .text span {
+      color: #007acc;
+    }
+
+    .buttons {
+      margin-top: 20px;
+    }
+
+    .btn {
+      padding: 10px 20px;
+      background: #007acc;
+      color: white;
+      border: none;
+      text-decoration: none;
+      margin-right: 10px;
+      border-radius: 5px;
+      display: inline-block;
+    }
+
+    .btn.secondary {
+      background: transparent;
+      border: 2px solid #007acc;
+      color: #007acc;
+    }
+
+    .profile-pic img {
+      width: 300px;
+      border-radius: 50%;
+      max-width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <h1 class="logo">Sachina</h1>
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About Me</a></li>
+        <li><a href="#">Contact Me</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="intro-section">
+    <div class="text">
+      <h2>Hi, I'm <span>Sachina</span></h2>
+      <p>I'm a UI/UX Designer with a passion for creating beautiful and user-friendly experiences.</p>
+      <div class="buttons">
+        <a href="#" class="btn">Hire Me</a>
+        <a href="#" class="btn secondary">See My Project</a>
+      </div>
+    </div>
+    <div class="profile-pic">
+      <img src="profile.png" alt="Sachina's photo" />
+    </div>
+  </main>
+</body>
+</html>
